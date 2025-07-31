@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小学生出题工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>小学生出题工具</h2>
+        <label>请输入题目数量：</label>
+        <input type="number" id="num" value="100" min="1" max="10000" placeholder="请输入1-10000之间的数字" />
+        <label>请输入题目类型：</label>
+        <label>
+            <input type="checkbox" id="add" checked>加法
+        </label>
+        <label>
+            <input type="checkbox" id="sub">减法
+        </label>
+        <label>
+            <input type="checkbox" id="mul">乘法
+        </label>
+        <label>
+            <input type="checkbox" id="div">除法
+        </label>
+        <br>
+        <br>
+        <button id="generate">生成题目</button>
+        <button id="download">下载题目</button>
+        <pre id="result"></pre>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

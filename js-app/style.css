@@ -1,0 +1,37 @@
+body {
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+    background: #f7f7f7;
+}
+.container {
+    background: #fff;
+    padding: 30px;
+    margin: 40px auto;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+label {
+    font-weight: bold;
+}
+pre {
+    background: #f0f0f0;
+    padding: 10px;
+    min-height: 120px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+button {
+    margin-right: 10px;
+    padding: 6px 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background: #90ee90;
+    cursor: pointer;
+}
+#generate {
+    background: #add8e6;
+}
+#download {
+    background: #90ee90;
+}
